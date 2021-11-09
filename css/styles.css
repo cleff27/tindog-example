@@ -1,0 +1,128 @@
+#title {
+  background-color: #ff4c68;
+  padding: 3% 12% 7%;
+}
+
+h1 {
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: antiquewhite;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-family: ubuntu;
+  font-weight: 900;
+}
+.nav-link {
+  margin: 0 0.5rem;
+}
+.rotate {
+  transform: rotate(20deg);
+  width: 270px;
+  position: absolute;
+  margin-top: 30px;
+}
+.navbar {
+  padding-bottom: 10%;
+}
+.download-button {
+  margin: 5% 5% 5% 0%;
+}
+.brand {
+  padding-left: 0;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-buttons {
+  color: #ff4c68;
+  font-size: 5rem;
+}
+.feature-header {
+  line-height: 1.5;
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.a {
+  text-align: center;
+}
+.feature-buttons:hover {
+  color: palevioletred;
+}
+
+#testimonials {
+  padding: 7% 15% 0 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+h2 {
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.profile {
+  border-radius: 100%;
+  height: 3rem;
+  margin: 3%;
+}
+#press {
+  padding: 5% 0;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.company {
+  height: 3rem;
+  margin: 0 2%;
+}
+#pricing {
+  text-align: center;
+  padding: 7% 15% 7% 15%;
+}
+.card {
+  margin: 5% 0;
+}
+.sign-up {
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .rotate {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  padding: 7% 12% 3%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta-text {
+  line-height: 1.5;
+  font-family: Montserrat-Black, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+}
+#footer {
+  text-align: center;
+  padding: 3% 12% 3%;
+}
+.socials {
+  margin: 1rem;
+}
+.footer-text {
+  color: gray;
+}
